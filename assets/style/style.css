@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('/assets/img/fundo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  box-sizing: border-box;
+  height: 100vh;
+  color: #d95d39;
+}
+
+.principal {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 4%;  
+  
+} 
+
+.aplicacao {
+  
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 110px;
+  padding-right: 40px;
+}
+
+.img-topo {
+  margin-top: 40px;
+  margin-left: -30px;
+}
+
+.setor-aplicacao {
+  margin-top: 0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-bottom: 30px;
+  width: 500px;
+}
+
+.texto {
+  margin-top: 5%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+ 
+  padding-right: 20px;
+}
+
+.texto_area {
+  color: black;  
+  resize: none;
+  background: transparent;
+  font-family: "Roboto", sans-serif;
+  width: 400px;
+  height: 140px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1rem;
+  color: rgb(5, 248, 33); 
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  
+   
+}
+
+textarea::placeholder {
+  color: rgb(5, 248, 33);
+}
+
+.aviso {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+}
+
+.button_aplicacao {
+  width: 300px;
+  padding: 60px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.button {
+  width: 190px;
+  height: 50px;
+  background-color: #05F140;
+  border-radius: 24px;
+  border: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.90rem;
+}
+
+.retangulo {
+  
+  box-sizing: border-box;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 462px;
+  border-radius: 32px;
+  margin-right: 40px;
+  gap: 20px;
+}
+
+.imagem {
+  box-sizing: border-box;
+  align-items: center;
+  width: 336px;
+  height: 304px;
+  max-width: 336px;
+  max-height: 304px;
+}
+
+.imgm {
+  margin-left: 10px;
+  max-width: 230px;
+  max-height: 304px;
+  padding: 60px 40px 40px 40px;
+}
+
+.retangulo2 {
+  box-sizing: border-box;
+  background: black;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 462px;
+  border-radius: 32px;
+  margin-right: 40px;
+  gap: 140px;
+  
+}
+
+.imagem2 {
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  margin-top: 10%;
+  flex-direction: column;
+}
+
+.frase {
+  margin: auto;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  color: #05F140;
+
+  
+  resize: none;
+  background: transparent;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.75rem;
+}
+
+.button_copiar {
+  width: 180px;
+  height: 50px;
+  border-radius: 24px;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  background-color: #05F140;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.90rem;
+  
+}
+
+.rodape{
+  height: auto;
+  padding: 1%;
+  text-align: center;
+  background-color: black;
+  color: #05F140;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 0.75rem;
+}
+
+.cabecalho{
+  padding: 10px;
+  background-color: black;
+  height: auto;
+}
+
+.texto1{
+  color:green;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+
+}
+
+.texto2{
+  color: green;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.75rem;
+}
+
+.texto_aviso{
+  color: #05F140;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.80rem;
+}
